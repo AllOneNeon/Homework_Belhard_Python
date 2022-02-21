@@ -1,0 +1,30 @@
+2022-02-19T15:23:27.063727+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (5100), thread 'MainThread' (9248):
+Traceback (most recent call last):
+
+> File "d:\Python\dz\Homework_6-main\Work_6\Task1-2.py", line 37, in <module>
+    main ()
+    └ <function main at 0x000001337BC4FAC0>
+
+  File "d:\Python\dz\Homework_6-main\Work_6\Task1-2.py", line 35, in main
+    print ('The toy is' , color.value + ' ' + toys.value)
+                          │     │             │    └ <types.DynamicClassAttribute object at 0x000001337B81AFE0>
+                          │     │             └ <Toys.toys: None>
+                          │     └ <types.DynamicClassAttribute object at 0x000001337B81AFE0>
+                          └ <Color.color: None>
+
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+2022-02-19T15:38:02.086421+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (18936), thread 'MainThread' (6576):
+Traceback (most recent call last):
+
+> File "c:\Users\AllOneNeon\Python\Homework_Belhard_Python\dz\Work_6_log_argparse\dz1_2.py", line 37, in <module>
+    main ()
+    └ <function main at 0x00000290C348FC70>
+
+  File "c:\Users\AllOneNeon\Python\Homework_Belhard_Python\dz\Work_6_log_argparse\dz1_2.py", line 35, in main
+    print ('The toy is' , color.value + ' ' + toys.value)
+                          │     │             │    └ <types.DynamicClassAttribute object at 0x00000290C305B160>
+                          │     │             └ <Toys.c: 'angel'>
+                          │     └ <types.DynamicClassAttribute object at 0x00000290C305B160>
+                          └ <Color.color: None>
+
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
