@@ -1,0 +1,3 @@
+
+@property
+    __new__()
